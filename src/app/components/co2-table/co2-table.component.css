@@ -1,0 +1,18 @@
+.table-container {
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+th.mat-header-cell {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}

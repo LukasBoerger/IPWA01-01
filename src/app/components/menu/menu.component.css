@@ -1,0 +1,29 @@
+nav {
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-left {
+  justify-content: flex-start;
+}
+
+.menu-right {
+  justify-content: flex-end;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #007bff;
+}
