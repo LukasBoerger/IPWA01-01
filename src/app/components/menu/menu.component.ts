@@ -7,9 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
-  // Funktion, um die Ausrichtung basierend auf der Schriftkultur festzulegen
   isLeftToRight(): boolean {
-    const lang = document.documentElement.lang || 'en'; // Hole die Sprache aus dem HTML-Tag
-    return ['en', 'de', 'fr', 'es'].includes(lang); // LTR-Sprachen
+    const lang = document.documentElement.lang || 'en';
+    return ['en', 'de', 'fr', 'es'].includes(lang);
   }
 }
